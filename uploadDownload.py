@@ -10,7 +10,8 @@ driver.implicitly_wait(3)
 
 
 
-driver.get('https://rahulshettyacademy.com/upload-download-test/index.html')
+driver.get('https://rahulshettyacademy.com/upload-download-test/index.html') 
+
 
 download_btn = driver.find_element(By.CSS_SELECTOR, "#downloadButton")
 download_btn.click()
